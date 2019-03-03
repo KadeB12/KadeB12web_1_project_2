@@ -1,0 +1,34 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div{ 
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+}
+#left{
+  padding: 1em;
+  width: 50%;
+  justify-content:space-around;
+}
+#right{
+  display:flex;
+  padding: 1em;
+  width: 4em;
+  justify-content:space-around;
+  color: solid; 
+  flex-wrap: wrap;
+}
+.icon_social{
+  width: 1.75em;
+  border-radius:.125em;
+}
+div#left a{
+  padding:1em;
+}
+div#right div{
+  margin: .125em 0;
+}
