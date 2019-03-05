@@ -1,0 +1,58 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid;
+}
+div{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#left{
+  padding: 1em;
+  width: 70%;
+  justify-content:space-around;
+}
+#right{
+  display:flex;
+  padding: 1em;
+  width: 4em;
+  justify-content:space-around;
+  color: solid; 
+  flex-wrap: wrap;
+}
+.icon_social{
+  width: 1.75em;
+  border-radius:.125em;
+}
+div#left a{
+  padding:1em;
+}
+div#right div{
+  margin: .125em 0;
+}
+header{
+  width: 90%;
+  border:solid;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+section{
+  width: 98%;
+  height: 95%;
+  border: solid;
+  display: flex;
+  background-image: url(https://images.unsplash.com/photo-1551667090-244e7178d53e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  
+  
+}
