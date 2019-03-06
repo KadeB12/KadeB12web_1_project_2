@@ -1,14 +1,23 @@
 @font-face{
-  font-family: "Museo";
+  font-family: "Museo-light";
   src: url('../assets/fonts/museo/museo-300-webfont.woff') format('woff');
 }
+@font-face{
+  font-family: "Museo-medium";
+  src: url('../assets/fonts/museo/museo-500-webfont.woff') format('woff');
+}
+@font-face{
+  font-family: "Museo-bold";
+  src: url('../assets/fonts/museo/museo-700-webfont.woff) format('woff');
+}
+
 
 body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background-image: url(https://github.com/KadeB12/KadeB12web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true);
-  font-family: "Museo";
+  font-family: "Museo-light";
 }
 nav{
   width: 90%;
