@@ -1,6 +1,6 @@
 @font-face{
   font-family: "Museo";
-  src: url('../assets/fonts/museo/museo-300-webfont.woff') format ('woff')
+  src: url('../assets/fonts/museo/museo-300-webfont.woff') format('woff');
 }
 
 body{
@@ -8,7 +8,7 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   background-image: url(https://github.com/KadeB12/KadeB12web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true);
-  font-family: ;
+  font-family: "Museo";
 }
 nav{
   width: 90%;
