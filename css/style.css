@@ -8,7 +8,7 @@
 }
 @font-face{
   font-family: "Museo-bold";
-  src: url('../assets/fonts/museo/museo-700-webfont.woff) format('woff');
+  src: url('../assets/fonts/museo/museo-700-webfont.woff') format('woff');
 }
 
 
