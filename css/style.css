@@ -53,6 +53,9 @@ a{
 div#left a{
   padding:1em;
 }
+div#right a{
+  padding: .325em;
+}
 div#right div{
   margin: .125em 0;
 }
@@ -83,19 +86,23 @@ section{
 	padding: 10px 50px;
 	background-color: #a6a69d;
   background-blend-mode: multiply;
-  margin: 0 auto;
+  margin: 1em auto;
 
 }
+main{
+  width: 100%;
+  padding: 1em;
+}
+
 .row{
-  height:20%;
+  height:10%;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  
 }
+
 .gallery{
-  height: 73%;
   width: 20%;
+  padding-bottom: 30%%;
   background: grey;
 }
 div.wrapper{
@@ -115,15 +122,55 @@ h1{
 
 }
 footer{
-  height: 35vh;
+  height: 20vh;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  align-content: flex-start;
   background-image: url(https://github.com/KadeB12/KadeB12web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
 	background-color: #a6a69d;
   background-blend-mode: multiply;
   margin: 0 auto;
+}
+footer div h3{
+  text-align: left;
+}
+footer div.gallery{
+
+}
+footer p{
+  color: lightgray;
+  text-align: left
+}
+footer div{
+  width: 30%;
+
+  flex-direction: column;
+  align-items: flex-start;
+}
+footer div nav a{
+  font-size: .125em;
+  padding: .5em;
+}
+.search{
+  font-size: 1em;
+  padding: .5em;
+  text-decoration: none;
+	background-color: white;
+	padding: 10px 50px;
+}
+#footcol{
+  padding: 1em;
+  width: 30%;
+  height: 80%;
+  justify-content: column;
+}
+.footrow{
+  height:30%;
+  display: flex;
+  justify-content: space-between;
+  padding:.25em;
 }
 .newsbar{
   height: 6vh;
@@ -143,10 +190,4 @@ div.newsbar h2{
 div.newsbar p{
   color:darkgrey;
   font-size: 1em;
-}
-#leftcol{
-  padding: 1em;
-  width: 50%;
-  justify-content: space-around;
-  border: solid;
 }
