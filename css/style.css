@@ -17,8 +17,8 @@ body{
   background-image: url(https://github.com/KadeB12/KadeB12web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true);
   font-family: "Museo-light";
 }
+/* this is the navigation bar ****************************** */ 
 nav{
-  /* width: 90%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,8 +34,8 @@ a{
 }
 #left{
   padding: 1em;
-  width: 70%;
-  justify-content:space-around;
+  width: 50%;
+  justify-content: flex-start;
 }
 #right{
   display:flex;
@@ -48,6 +48,7 @@ a{
 .icon_social{
   width: 1.75em;
   border-radius:.125em;
+  margin: .2em;
 }
 div#left a{
   padding:1em;
@@ -56,20 +57,24 @@ div#right div{
   margin: .125em 0;
 }
 header{
-  /* width: 90%; */
-  border:solid;
   height: 35vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: white;
 }
+.logo{
+  padding: 1em;
+}
+div.banner h2{
+  font-size: 1em;
+  color: white;
+}
 section{
   width: 98%;
   height: 95%;
-  border: solid;
   display: flex;
-  background-image: url(https://images.unsplash.com/photo-1551667090-244e7178d53e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);  
+  background-image: url(https://images.unsplash.com/photo-1551667090-244e7178d53e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
 }
 .button{
 	text-decoration: none;
@@ -77,21 +82,71 @@ section{
 	background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
 	padding: 10px 50px;
 	background-color: #a6a69d;
-	background-blend-mode: multiply;
+  background-blend-mode: multiply;
+  margin: 0 auto;
+
 }
-main{
-  height:60vh;
-  /* width: 90%; */
+.row{
+  height:20%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  
 }
 .gallery{
-  height: 30%;
+  height: 73%;
   width: 20%;
   background: grey;
 }
 div.wrapper{
   display: block;
   width: 90%;
+  margin: 0, 0, 1.75em, 1.75em;
+}
+.banner{
+  height: 6vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .6);
+}
+h1{
+  font-size: 1.5em;
+  text-align: center;
+  margin: 1.75em;
+
+}
+footer{
+  height: 35vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://github.com/KadeB12/KadeB12web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+	background-color: #a6a69d;
+  background-blend-mode: multiply;
   margin: 0 auto;
+}
+.newsbar{
+  height: 6vh;
+  width: 100%;
+  background-color: grey;
+  margin-top: 1.75em;
+  justify-content: center;
+}
+div.newsbar div{
+  width: 38em;
+  justify-content: space-around;
+}
+div.newsbar h2{
+  color:white;
+  font-size: 1em;
+}
+div.newsbar p{
+  color:darkgrey;
+  font-size: 1em;
+}
+#leftcol{
+  padding: 1em;
+  width: 50%;
+  justify-content: space-around;
+  border: solid;
 }
