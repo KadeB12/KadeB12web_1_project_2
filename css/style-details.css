@@ -67,14 +67,14 @@ div#right div{
 }
 /* this is the HEADER ******************************************************* ************************** * */ 
 header{
-  height: 30em;
+  height: 25em;
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: white;
 }
 
 div.banner h2{
+  font-family: "Museo-light";
   font-size: 1.5em;
   padding:.5em;
   color: white;
@@ -88,21 +88,56 @@ section{
   flex-direction: column;
   justify-content: flex-end;
   position: relative;
+  border: .5em solid white;
+  margin-right: .75em;
 }
 section img.arrowleft{
   height: 10%;
   width: 5%;
   position: absolute;
-  bottom: 12em;
-  left: -2em;
+  bottom: 10em;
+  left: -1em;
 }
 section img.arrowright{
   height: 10%;
   width: 5%;
   position: absolute;
-  bottom: 12em;
-  right: -2em;
+  bottom: 10em;
+  right: -1em;
 }
+div.profile{
+  background:white;
+  height:8em;
+  width: 25em;
+}
+div.profile div{
+  width: 60%;
+  height: 60%;
+  align-items: flex-end;
+  flex-direction: column;
+}
+div.profile div h1{
+  margin:0;
+}
+div.profile div.icons{
+  flex-direction: row;
+  justify-content: flex-end;
+}
+div.profile div.profilepic{
+  width: 6em;
+  height: 6em;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxR81TSkKPFIRnsRV5aCx5LEztsm9qRiPrZdDvL_JsZAtA4hHN);
+  background-size: cover;
+  background-position: top;
+  margin: .5em;
+}
+div.profile div h1{
+  font-size: .75em;
+}
+div.profile div h2{
+  font-size: .5em;
+}
+
 .button{
 	text-decoration: none;
 	color: white;
@@ -133,7 +168,6 @@ main{
 }
 div.wrapper{
   height: 80em;
- 
   display: block;
   width: 90%;
   margin: 0, 0, 1.75em, 1.75em;
@@ -144,12 +178,7 @@ div.wrapper{
   background-color: rgba(0, 0, 0, .6);
   justify-content: flex-end;
 }
-h1{
-  font-size: 1.5em;
-  text-align: center;
-  margin: 1.75em;
 
-}
 footer{
   height: 20vh;
   width: 100%;
@@ -254,20 +283,7 @@ div.newsbar h2{
   div.wrapper{
     height: 55em;
   }  
-  section img.arrowleft{
-    height: 10%;
-    width: 5%;
-    position: absolute;
-    bottom: 10em;
-    left: -1em;
-  }
-  section img.arrowright{
-    height: 10%;
-    width: 5%;
-    position: absolute;
-    bottom: 10em;
-    left: 50em;
-  }
+
   #alert{
     font-size: .75em;
   }

@@ -101,7 +101,7 @@ section img.arrowright{
   width: 5%;
   position: absolute;
   bottom: 12em;
-  right: -2em;
+  left: 60em;
 }
 .button{
 	text-decoration: none;
