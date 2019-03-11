@@ -84,8 +84,9 @@ section{
   width: 98%;
   height: 95%;
   display: flex;
-  background-image: url(https://images.unsplash.com/photo-1551667090-244e7178d53e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://scontent-lhr3-1.cdninstagram.com/vp/4d532806265ad0d99d271fae4194acb7/5D197A18/t51.2885-15/e15/1971385_934088529941083_1479022946_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com&ig_cache_key=ODE0NTAxMDk3ODExNzMzNzc5.2);
   background-size: cover;
+  background-position: center;
   flex-direction: column;
   justify-content: flex-end;
   position: relative;
@@ -159,14 +160,14 @@ div.leftcol {
 }
 .headgallery-i1{
   width: 30%;
-  background-image: url(https://images.unsplash.com/photo-1551667090-244e7178d53e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://images.unsplash.com/photo-1461887046916-c7426e65460d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80);
   background-size: cover;
   border: .5em solid white;
   margin: .25em;
 }
 .headgallery-i2{
   width: 30%;
-  background-image: url(https://images.unsplash.com/photo-1551667090-244e7178d53e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
   background-size: cover;
   border: .5em solid white;
   margin: .25em;
@@ -177,6 +178,7 @@ div.leftcol {
   background-size: cover;
   border: .5em solid white;
   margin: .25em;
+  background-position: center;
 }
 .button{
 	text-decoration: none;
@@ -212,12 +214,68 @@ div.gallerylarge h1{
 div.gallerylarge div.gallery{
   border: none;
 }
-.gallery{
+.gallery-r1-i1{
   width: 30%;
   padding-bottom: 30%%;
-  background-image: url(https://images.unsplash.com/photo-1551667090-244e7178d53e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://cdn-images-1.medium.com/max/1200/1*pznhu0u2iCGzmqVjhnV-lw.png);
   background-size: cover;
   margin: .25em;
+}
+.gallery-r1-i2{
+  width: 30%;
+  padding-bottom: 30%%;
+  background-image: url(https://scontent-lhr3-1.cdninstagram.com/vp/95e07d4aa2c49ef5e5a54d3e00866887/5D08809F/t51.2885-15/e35/51746462_385889715524212_1938515610799405818_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com&se=7&ig_cache_key=MTk4ODI3NDU2NzgwNTk1Njk1NQ%3D%3D.2);
+  background-size: cover;
+  margin: .25em;
+  background-position: center;
+}
+.gallery-r1-i3{
+  width: 30%;
+  padding-bottom: 30%%;
+  background-image: url(https://scontent-lhr3-1.cdninstagram.com/vp/ce6f26033573b936d2a2c4092efebcb1/5D237CC1/t51.2885-15/e35/43913126_166338964316238_3026788700339941136_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com&se=7&ig_cache_key=MTg5ODk0NjMzMzgzMDc2Mzc5Nw%3D%3D.2);
+  background-size: cover;
+  margin: .25em;
+  background-position: center;
+}
+.gallery-r1-i4{
+  width: 30%;
+  padding-bottom: 30%%;
+  background-image: url(https://scontent-lhr3-1.cdninstagram.com/vp/ec5977b77447debd409da2e5398ee44a/5D1A908D/t51.2885-15/e35/53552450_424056861700929_1305053387867753123_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com&se=7&ig_cache_key=MTk5MjAxMzczMDExMTYxMDQ4OA%3D%3D.2);
+  background-size: cover;
+  margin: .25em;
+  background-position: center;
+}
+.gallery-r2-i1{
+  width: 30%;
+  padding-bottom: 30%%;
+  background-image: url(https://scontent-lhr3-1.cdninstagram.com/vp/e1a54942a32315bc7bb4b81e63562d20/5D1F0A3B/t51.2885-15/e35/23667883_373071759817153_8558101239294853120_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com&se=8&ig_cache_key=MTY1MjU4MzUzMzA2NTE3OTAyNA%3D%3D.2);
+  background-size: cover;
+  margin: .25em;
+  background-position: center;
+}
+.gallery-r2-i2{
+  width: 30%;
+  padding-bottom: 30%%;
+  background-image: url(https://scontent-lhr3-1.cdninstagram.com/vp/77bcaf8f9bde4e3fab4b6ebf69fc7446/5D2678A9/t51.2885-15/e35/12545304_1551297468495731_1245712918_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com&ig_cache_key=MTE2MDk3MDk1NDUwMzYxNDAyMQ%3D%3D.2);
+  background-size: cover;
+  margin: .25em;
+  background-position: center;
+}
+.gallery-r2-i3{
+  width: 30%;
+  padding-bottom: 30%%;
+  background-image: url(https://scontent-lhr3-1.cdninstagram.com/vp/f2b18fabaa2766aef58a4106cf739f52/5D0CAB58/t51.2885-15/e15/10817799_976124425731494_516273872_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com&ig_cache_key=ODU2MTUzMjQ0MjIzNDAxNTk3.2);
+  background-size: cover;
+  margin: .25em;
+  background-position: center;
+}
+.gallery-r2-i4{
+  width: 30%;
+  padding-bottom: 30%%;
+  background-image: url(https://scontent-lhr3-1.cdninstagram.com/vp/4d532806265ad0d99d271fae4194acb7/5D197A18/t51.2885-15/e15/1971385_934088529941083_1479022946_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com&ig_cache_key=ODE0NTAxMDk3ODExNzMzNzc5.2);
+  background-size: cover;
+  margin: .25em;
+  background-position: center;
 }
 div.wrapper{
   height: 80em;
