@@ -117,6 +117,7 @@ div.projectinfo{
   height:68%;
   width: 100%;
   align-items: flex-start;
+  overflow-y: scroll;
 }
 div.profile div{
   width: 60%;
